@@ -4,7 +4,7 @@ const calculateDecBin = (numberDec) => {
     while (numberDec > 1) {
         const module = numberDec % 2;
 
-        binaryNumber.push(module.toString());
+        binaryNumber.push(module);
 
         numberDec = Math.trunc(numberDec / 2);
     }
